@@ -397,7 +397,9 @@ CFJhw616IDE6A
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pCl-Lj-AxU" userLabel="raiz1TextField">
                                                 <rect key="frame" x="99.333333333333314" y="0.0" width="232" height="45.666666666666664"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="raiz1TextField"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="raiz1TextField">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                </accessibility>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
@@ -428,7 +430,9 @@ CFJhw616IDE6A
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wbN-OD-0U7" userLabel="raiz2TextField">
                                                 <rect key="frame" x="99.333333333333314" y="0.0" width="232" height="45.666666666666664"/>
-                                                <accessibility key="accessibilityConfiguration" identifier="raiz2TextField"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="raiz2TextField">
+                                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                </accessibility>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>

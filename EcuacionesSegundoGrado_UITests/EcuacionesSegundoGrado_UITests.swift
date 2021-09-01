@@ -38,7 +38,7 @@ class EcuacionesSegundoGrado_UITests: XCTestCase {
         bTextField.typeText("-5.0")
         cTextField.tap()
         cTextField.typeText("6.0")
-        app.staticTexts["Convertir"].tap()
+        app.staticTexts["Button"].tap()
 
         print("Raiz1 " + (raiz1TextField.value as! String))
         print("Raiz2 " + (raiz2TextField.value as! String))
