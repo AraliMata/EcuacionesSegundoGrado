@@ -21,22 +21,29 @@ class EcuacionesSegundoGrado_UITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    
+    func testEquationSolverThreeCoeffs() throws {
         let app = XCUIApplication()
         app.launch()
+        
+        let aTextField = app.textFields["aTextField"]
+        let bTextField = app.textFields["bTextField"]
+        let cTextField = app.textFields["cTextField"]
+        let raiz1TextField = app.textFields["raiz1TextField"]
+        let raiz2TextField = app.textFields["raiz2TextField"]
+        
+        aTextField.tap()
+        aTextField.typeText("1.0")
+        bTextField.tap()
+        bTextField.typeText("-5.0")
+        cTextField.tap()
+        cTextField.typeText("6.0")
+        app.staticTexts["Convertir"].tap()
 
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+        print("Raiz1 " + (raiz1TextField.value as! String))
+        print("Raiz2 " + (raiz2TextField.value as! String))
+        XCTAssertEqual(raiz1TextField.value as! String, "3.0")
+        XCTAssertEqual(raiz2TextField.value as! String, "2.0")
+        
     }
 }
