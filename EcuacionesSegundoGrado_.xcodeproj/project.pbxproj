@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D7A86B426DFE0FD00F70570 /* ComplexNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A86B326DFE0FD00F70570 /* ComplexNumber.swift */; };
 		8DF5979126DEDC8100B00981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF5979026DEDC8100B00981 /* AppDelegate.swift */; };
 		8DF5979326DEDC8100B00981 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF5979226DEDC8100B00981 /* SceneDelegate.swift */; };
-		8DF5979526DEDC8100B00981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF5979426DEDC8100B00981 /* ViewController.swift */; };
 		8DF5979826DEDC8100B00981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF5979626DEDC8100B00981 /* Main.storyboard */; };
 		8DF5979A26DEDC8200B00981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF5979926DEDC8200B00981 /* Assets.xcassets */; };
 		8DF5979D26DEDC8200B00981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF5979B26DEDC8200B00981 /* LaunchScreen.storyboard */; };
 		8DF597A826DEDC8200B00981 /* EcuacionesSegundoGrado_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF597A726DEDC8200B00981 /* EcuacionesSegundoGrado_Tests.swift */; };
 		8DF597B326DEDC8300B00981 /* EcuacionesSegundoGrado_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF597B226DEDC8300B00981 /* EcuacionesSegundoGrado_UITests.swift */; };
+		8DF597C426DEDCDB00B00981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF597C326DEDCDB00B00981 /* ViewController.swift */; };
+		8DF597CE26DEDD2400B00981 /* ecuacion-segundo-grado-raices.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DF597CD26DEDD2400B00981 /* ecuacion-segundo-grado-raices.png */; };
+		8DF597E226DEDD9400B00981 /* EquationSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF597E126DEDD9400B00981 /* EquationSolver.swift */; };
+		8DF597E826DEDDA400B00981 /* Coeff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF597E626DEDDA400B00981 /* Coeff.swift */; };
+		8DF597E926DEDDA400B00981 /* Roots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF597E726DEDDA400B00981 /* Roots.swift */; };
+		8DF597EE26DEDDC900B00981 /* EquationSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF597ED26DEDDC900B00981 /* EquationSolverTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D7A86B326DFE0FD00F70570 /* ComplexNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexNumber.swift; sourceTree = "<group>"; };
 		8DF5978D26DEDC8100B00981 /* EcuacionesSegundoGrado_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcuacionesSegundoGrado_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF5979026DEDC8100B00981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF5979226DEDC8100B00981 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8DF5979426DEDC8100B00981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8DF5979726DEDC8100B00981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DF5979926DEDC8200B00981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF5979C26DEDC8200B00981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		8DF597AE26DEDC8300B00981 /* EcuacionesSegundoGrado_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcuacionesSegundoGrado_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF597B226DEDC8300B00981 /* EcuacionesSegundoGrado_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcuacionesSegundoGrado_UITests.swift; sourceTree = "<group>"; };
 		8DF597B426DEDC8300B00981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF597C326DEDCDB00B00981 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../ConvertidorTemperatura 2/ConvertidorTemperatura/ViewController.swift"; sourceTree = "<group>"; };
+		8DF597CD26DEDD2400B00981 /* ecuacion-segundo-grado-raices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ecuacion-segundo-grado-raices.png"; sourceTree = "<group>"; };
+		8DF597E126DEDD9400B00981 /* EquationSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquationSolver.swift; sourceTree = "<group>"; };
+		8DF597E626DEDDA400B00981 /* Coeff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coeff.swift; sourceTree = "<group>"; };
+		8DF597E726DEDDA400B00981 /* Roots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roots.swift; sourceTree = "<group>"; };
+		8DF597ED26DEDDC900B00981 /* EquationSolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquationSolverTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,11 @@
 		8DF5978F26DEDC8100B00981 /* EcuacionesSegundoGrado_ */ = {
 			isa = PBXGroup;
 			children = (
+				8DF597CC26DEDD0100B00981 /* Images */,
+				8DF597CB26DEDCEB00B00981 /* Model */,
 				8DF5979026DEDC8100B00981 /* AppDelegate.swift */,
 				8DF5979226DEDC8100B00981 /* SceneDelegate.swift */,
-				8DF5979426DEDC8100B00981 /* ViewController.swift */,
+				8DF597C326DEDCDB00B00981 /* ViewController.swift */,
 				8DF5979626DEDC8100B00981 /* Main.storyboard */,
 				8DF5979926DEDC8200B00981 /* Assets.xcassets */,
 				8DF5979B26DEDC8200B00981 /* LaunchScreen.storyboard */,
@@ -113,6 +127,7 @@
 		8DF597A626DEDC8200B00981 /* EcuacionesSegundoGrado_Tests */ = {
 			isa = PBXGroup;
 			children = (
+				8DF597ED26DEDDC900B00981 /* EquationSolverTests.swift */,
 				8DF597A726DEDC8200B00981 /* EcuacionesSegundoGrado_Tests.swift */,
 				8DF597A926DEDC8200B00981 /* Info.plist */,
 			);
@@ -126,6 +141,41 @@
 				8DF597B426DEDC8300B00981 /* Info.plist */,
 			);
 			path = EcuacionesSegundoGrado_UITests;
+			sourceTree = "<group>";
+		};
+		8DF597CB26DEDCEB00B00981 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DF597E026DEDD7D00B00981 /* ValueObject */,
+				8DF597DF26DEDD4F00B00981 /* Tools */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DF597CC26DEDD0100B00981 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8DF597CD26DEDD2400B00981 /* ecuacion-segundo-grado-raices.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		8DF597DF26DEDD4F00B00981 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8DF597E126DEDD9400B00981 /* EquationSolver.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		8DF597E026DEDD7D00B00981 /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				8DF597E626DEDDA400B00981 /* Coeff.swift */,
+				8DF597E726DEDDA400B00981 /* Roots.swift */,
+				8D7A86B326DFE0FD00F70570 /* ComplexNumber.swift */,
+			);
+			path = ValueObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF5979D26DEDC8200B00981 /* LaunchScreen.storyboard in Resources */,
+				8DF597CE26DEDD2400B00981 /* ecuacion-segundo-grado-raices.png in Resources */,
 				8DF5979A26DEDC8200B00981 /* Assets.xcassets in Resources */,
 				8DF5979826DEDC8100B00981 /* Main.storyboard in Resources */,
 			);
@@ -258,8 +309,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF5979526DEDC8100B00981 /* ViewController.swift in Sources */,
+				8DF597E226DEDD9400B00981 /* EquationSolver.swift in Sources */,
+				8DF597E926DEDDA400B00981 /* Roots.swift in Sources */,
 				8DF5979126DEDC8100B00981 /* AppDelegate.swift in Sources */,
+				8DF597E826DEDDA400B00981 /* Coeff.swift in Sources */,
+				8DF597C426DEDCDB00B00981 /* ViewController.swift in Sources */,
+				8D7A86B426DFE0FD00F70570 /* ComplexNumber.swift in Sources */,
 				8DF5979326DEDC8100B00981 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF597EE26DEDDC900B00981 /* EquationSolverTests.swift in Sources */,
 				8DF597A826DEDC8200B00981 /* EcuacionesSegundoGrado_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
