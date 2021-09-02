@@ -2,7 +2,7 @@
 //  Const.swift
 //  EcuacionesSegundoGrado
 //
-//  Created by user189928 on 8/28/21.
+//  Created by Aralí Mata on 8/28/21.
 //
 
 import Foundation

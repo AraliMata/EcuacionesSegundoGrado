@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  EcuacionesSegundoGrado_
 //
-//  Created by user189928 on 8/31/21.
+//  Created by Aralí Mata on 8/31/21.
 //
 
 import UIKit

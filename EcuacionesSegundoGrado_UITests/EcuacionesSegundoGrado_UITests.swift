@@ -2,7 +2,7 @@
 //  EcuacionesSegundoGrado_UITests.swift
 //  EcuacionesSegundoGrado_UITests
 //
-//  Created by user189928 on 8/31/21.
+//  Created by Aralí Mata on 8/31/21.
 //
 
 import XCTest
@@ -45,5 +45,53 @@ class EcuacionesSegundoGrado_UITests: XCTestCase {
         XCTAssertEqual(raiz1TextField.value as! String, "3.0")
         XCTAssertEqual(raiz2TextField.value as! String, "2.0")
         
+    }
+    
+    func testEquationSolverImaginaryRoots() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let aTextField = app.textFields["aTextField"]
+        let bTextField = app.textFields["bTextField"]
+        let cTextField = app.textFields["cTextField"]
+        let raiz1TextField = app.textFields["raiz1TextField"]
+        let raiz2TextField = app.textFields["raiz2TextField"]
+        
+        aTextField.tap()
+        aTextField.typeText("2.0")
+        bTextField.tap()
+        bTextField.typeText("-2.0")
+        cTextField.tap()
+        cTextField.typeText("5.0")
+        app.staticTexts["Button"].tap()
+
+        print("Raiz1 " + (raiz1TextField.value as! String))
+        print("Raiz2 " + (raiz2TextField.value as! String))
+        XCTAssertEqual(raiz1TextField.value as! String, "0.5+1.5i")
+        XCTAssertEqual(raiz2TextField.value as! String, "0.5-1.5i")
+    }
+    
+    func testEquationSolverNoQuadratic() throws {
+        let app = XCUIApplication()
+        app.launch()
+        
+        let aTextField = app.textFields["aTextField"]
+        let bTextField = app.textFields["bTextField"]
+        let cTextField = app.textFields["cTextField"]
+        let raiz1TextField = app.textFields["raiz1TextField"]
+        let raiz2TextField = app.textFields["raiz2TextField"]
+        
+        aTextField.tap()
+        aTextField.typeText("0.0")
+        bTextField.tap()
+        bTextField.typeText("0.0")
+        cTextField.tap()
+        cTextField.typeText("0.0")
+        app.staticTexts["Button"].tap()
+
+        print("Raiz1 " + (raiz1TextField.value as! String))
+        print("Raiz2 " + (raiz2TextField.value as! String))
+        XCTAssertEqual(raiz1TextField.value as! String, "No es cuadrática")
+        XCTAssertEqual(raiz2TextField.value as! String, "No es cuadrática")
     }
 }

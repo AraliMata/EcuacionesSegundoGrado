@@ -2,7 +2,7 @@
 //  EquationSolverTests.swift
 //  EcuacionesSegundoGradoTests
 //
-//  Created by user189928 on 8/30/21.
+//  Created by Aralí Mata on 8/30/21.
 //
 
 import XCTest
@@ -11,6 +11,23 @@ import XCTest
 class EquationSolverTests: XCTestCase {
 
     let equationSolver = EquationSolver()
+    
+    func testSolveWithImaginaryRoots() throws {
+        // Given
+        let input = Coeff(a: 2.0, b: -2.0, c: 5.0)
+        
+        // When
+        let result = equationSolver.solve(coefficients: input)
+        
+        // Then
+        let expectedRoot1: Float16 = 0.5
+        let expectedRoot2: Float16 = 0.5
+        let expectedD: Float16 = 1.5
+        XCTAssertEqual(result.root1, expectedRoot1)
+        XCTAssertEqual(result.root2, expectedRoot2)
+        XCTAssertEqual(result.d, expectedD)
+        
+    }
 
     func testSolveWithOneCoefficient() throws {
         // Given

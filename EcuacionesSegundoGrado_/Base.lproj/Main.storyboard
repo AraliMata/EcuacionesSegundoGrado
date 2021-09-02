@@ -453,7 +453,7 @@ CFJhw616IDE6A
                                         <rect key="frame" x="0.0" y="264.66666666666669" width="331.33333333333331" height="45.333333333333314"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQM-cb-IbA" userLabel="Resolver">
-                                                <rect key="frame" x="142.66666666666666" y="7" width="46" height="45.333333333333336"/>
+                                                <rect key="frame" x="116.00000000000003" y="7" width="99.333333333333343" height="45.333333333333336"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="Resolver"/>
                                                 <state key="normal" title="Button"/>
                                                 <connections>
@@ -465,7 +465,7 @@ CFJhw616IDE6A
                                         <constraints>
                                             <constraint firstItem="GQM-cb-IbA" firstAttribute="top" secondItem="8QH-N1-Ci6" secondAttribute="top" constant="7" id="1he-cb-bF8"/>
                                             <constraint firstItem="GQM-cb-IbA" firstAttribute="centerX" secondItem="8QH-N1-Ci6" secondAttribute="centerX" id="Nrd-pa-fMv"/>
-                                            <constraint firstItem="GQM-cb-IbA" firstAttribute="width" secondItem="8QH-N1-Ci6" secondAttribute="width" multiplier="0.138833" id="OTh-g6-XAg"/>
+                                            <constraint firstItem="GQM-cb-IbA" firstAttribute="width" secondItem="8QH-N1-Ci6" secondAttribute="width" multiplier="0.3" id="OTh-g6-XAg"/>
                                             <constraint firstItem="GQM-cb-IbA" firstAttribute="height" secondItem="8QH-N1-Ci6" secondAttribute="height" id="flK-Li-Qpr"/>
                                         </constraints>
                                     </view>
