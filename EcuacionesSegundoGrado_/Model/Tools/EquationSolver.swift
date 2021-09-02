@@ -14,12 +14,12 @@ public class EquationSolver {
         let d = (coefficients.b * coefficients.b) - 4.0 * coefficients.a * coefficients.c
         
         
-        if(d == 0){
+       if(d == 0){
             let root_1 = -coefficients.b / (2 * coefficients.a)
             return Roots(root1: root_1, root2: root_1)
         }else if(d > 0){
-            let root_1 = -coefficients.b + sqrt(d) / (2.0 * coefficients.a)
-            let root_2 = -coefficients.b - sqrt(d) / (2.0 * coefficients.a)
+            let root_1 = (-coefficients.b + sqrt(d)) / (2.0 * coefficients.a)
+            let root_2 = (-coefficients.b - sqrt(d)) / (2.0 * coefficients.a)
             return Roots(root1: root_1, root2: root_2)
         }else{
             let root_1 = Float16(0.0)
